@@ -1,0 +1,140 @@
+body { 
+    margin: 0;
+    background-color: #AAB396
+}
+nav {
+    background-color: #48CFCB;
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    font-size: 20px;
+}
+footer {
+    background-color: #48CFCB;
+    border-style: solid;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    display: flex;
+    justify-content: center;
+}
+.splash h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: white;
+}
+.splash img {
+    border-style: groove;
+    border-radius: 100px;
+}
+
+#addr {
+    font-style: italic;
+}
+
+#sum {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+hr {
+    color:#AAB396;
+    border-width: thick;
+}
+
+h2 {
+    color: #102C57;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+dt, dd {
+    color: #FEFAE0;
+}
+dt {
+    font-size: large;
+}
+.one-col {
+    display: grid;
+    gap: 10px;
+}
+input[type=submit] {
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #1E2A5E, #E1D7B7);
+}
+
+input[type=submit]:hover {
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #921A40, #C75B7A);
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+dl {
+    display: grid;
+}
+a:link {
+    text-decoration: none;
+    color: #125B9A;
+}
+a:visited {
+    color: #125B9A;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.project_grid > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_grid {
+    border-style: solid;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    border-width: thin;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#message {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+input {
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #06D001;
+}
+
+label {
+    color: #102C57;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+ul > li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
